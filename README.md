@@ -6,9 +6,10 @@ An intelligent query resolution and knowledge retrieval system designed to proce
 
 ## 📌 Project Overview
 
-This repository provides automated query resolution workflows using computational problem-solving and structured data querying:
+This repository provides automated query resolution workflows using computational problem-solving, structured data querying, and distributed data processing:
 - **Algorithmic Knowledge Resolution (`Python.ipynb`)**: Demonstrates computational logic, algorithm validation, and standard problem-solving patterns.
 - **Relational Query Resolution (`SQL.ipynb`)**: Demonstrates schema design, relational modeling, aggregation queries, and conditional data retrieval.
+- **Distributed Query Resolution (`pyspark_task.ipynb`)**: Demonstrates distributed query processing, DataFrame operations, and schema management using PySpark.
 
 ---
 
@@ -16,10 +17,11 @@ This repository provides automated query resolution workflows using computationa
 
 ```text
 .
-├── Python.ipynb     # Python notebook for algorithmic problem solving and query resolution
-├── SQL.ipynb        # SQL notebook containing schema definitions and analytical queries
-├── LICENSE          # MIT License
-└── README.md        # Project documentation and guide
+├── Python.ipynb         # Python notebook for algorithmic problem solving and query resolution
+├── SQL.ipynb            # SQL notebook containing schema definitions and analytical queries
+├── pyspark_task.ipynb   # PySpark notebook for distributed query processing
+├── LICENSE              # MIT License
+└── README.md            # Project documentation and guide
 ```
 
 ---
@@ -31,25 +33,26 @@ This repository provides automated query resolution workflows using computationa
 - Python 3.8+
 - Jupyter Notebook / JupyterLab or VS Code / Google Colab
 - SQLite or any standard SQL relational database engine
+- Apache Spark / PySpark
 
 ### Setup & Usage
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd Development-of-AI-Based-Knowledge-Retrieval-Platform-with-Query-Resolution-System-means-main
+   git clone https://github.com/sharathgowdaur-jpg/Development-of-AI-Based-Knowledge-Retrieval-Platform-with-Query-Resolution-System.git
+   cd Development-of-AI-Based-Knowledge-Retrieval-Platform-with-Query-Resolution-System
    ```
 
-2. **Install Jupyter (if not already installed):**
+2. **Install dependencies:**
    ```bash
-   pip install notebook
+   pip install notebook pyspark
    ```
 
 3. **Launch the notebooks:**
    ```bash
    jupyter notebook
    ```
-   Open `Python.ipynb` or `SQL.ipynb` to explore and execute the query resolution tasks.
+   Open `Python.ipynb`, `SQL.ipynb`, or `pyspark_task.ipynb` to explore and execute the query resolution tasks.
 
 ---
 
